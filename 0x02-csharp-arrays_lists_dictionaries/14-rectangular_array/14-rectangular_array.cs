@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        int[] array = new int[5, 5];
+        int[,] array = new int[5, 5];
         array[2,2] = 1;
         for (int x = 0; x < 5; x++)
         {
