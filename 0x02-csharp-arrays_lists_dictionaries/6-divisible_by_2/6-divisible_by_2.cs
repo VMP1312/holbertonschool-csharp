@@ -8,7 +8,7 @@ class List
         int cnt;
         List<bool> NList = new List<bool> ();
 
-        for (cnt = 0; i < myList.Count; cnt++)
+        for (cnt = 0; cnt < myList.Count; cnt++)
         {
             if (myList[cnt] % 2 != 0)
                 NList.Add(false);
