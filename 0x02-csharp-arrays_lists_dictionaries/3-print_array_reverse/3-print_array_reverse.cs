@@ -12,7 +12,7 @@ class Array
         {
             cnt = array.Length - 1;
 
-            for (cnt; cnt >= 0; cnt--)
+            for (; cnt >= 0; cnt--)
             {
                 if (cnt <= 1)
                     Console.WriteLine(array[cnt]);
