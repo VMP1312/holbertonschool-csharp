@@ -6,8 +6,6 @@ namespace _6_print_comb2
     {
         static void Main(string[] args)
         {
-            static void Main(string[] args)
-        {
             int i;
             int j;
 
@@ -22,7 +20,6 @@ namespace _6_print_comb2
                 }
             }
             Console.WriteLine("89");
-        }
         }
     }
 }
