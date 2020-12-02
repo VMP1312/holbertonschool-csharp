@@ -14,7 +14,7 @@ class Array
 
             for (; cnt >= 0; cnt--)
             {
-                if (cnt <= 1)
+                if (cnt < 1)
                     Console.WriteLine(array[cnt]);
 
                 else
