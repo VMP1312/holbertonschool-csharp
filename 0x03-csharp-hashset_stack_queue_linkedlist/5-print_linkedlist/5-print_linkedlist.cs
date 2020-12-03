@@ -6,7 +6,10 @@ class LList
     public static LinkedList<int> CreatePrint(int size)
     {
         if (size < 0)
+        {
             LinkedList<int> NList = new LinkedList<int>();
+            return NList;
+        }
 
         else
         {
@@ -16,8 +19,8 @@ class LList
                 n[cnt] = cnt;
                 Console.WriteLine(n[cnt]);
             }
-            LinkedList<int> NList = new LinkedList<int>(n);        
+            LinkedList<int> NList = new LinkedList<int>(n);  
+            return NList;
         }
-        return NList;
     }
 }
