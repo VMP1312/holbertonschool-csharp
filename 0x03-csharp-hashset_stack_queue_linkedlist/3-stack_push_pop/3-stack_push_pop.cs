@@ -17,7 +17,6 @@ class MyStack
             Console.WriteLine("Top item: {0}", top);
         }
 
-        aStack.Push(newItem);
 
         if (aStack.Contains(search))
         {
@@ -28,7 +27,8 @@ class MyStack
        
         else
             Console.WriteLine("Stack contains \"{0}\": False", search);
-
+        
+        aStack.Push(newItem);
         return aStack;
     }
 }
