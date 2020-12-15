@@ -21,9 +21,6 @@ namespace Enemies
             }
         }
 
-        /// <summary> Defines health </summary>
-        public int health;
-
         /// <summary>Initialize a <see cref="Zombie"/> class</summary>
         public Zombie()
         {
