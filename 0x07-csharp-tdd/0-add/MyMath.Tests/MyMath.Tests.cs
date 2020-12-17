@@ -1,25 +1,35 @@
 using NUnit.Framework;
 
-namespace MyMath.Tests
+namespace Tests
 {
-    ///<summary> Tests for "Operations"</summary>
-    
+    [TestFixture]
     public class OperationsTests
     {
-        
-        /// <sumary> Test the "Add" method.</sumary>
+    
         [Test]
-
-        [TestCase(8, 13)]
-        [TestCase(-8, 13)]
-        [TestCase(8, -13)]
-        [TestCase(-8, -13)]
-        [TestCase(0, 5)]
-        [TestCase(0, 0)]
-        public void Test1()
+        public void Positives()
         {
-            int tst = Operations.Add(a, b);
-            Assert.AreEqual(a + b, tst);
+            int a = 2;
+            int b = ;
+            Assert.AreEqual(MyMath.Operations.Add(a, b), 3);
+        }
+
+        [Test]
+        public void Negatives()
+        {
+            Assert.AreEqual(MyMath.Operations.Add(-2, -1), -3);
+        }
+
+        [TestCase(1, 2)]
+        [TestCase(-2, -1)]
+        [TestCase(0, 0)]
+        [TestCase(-2, 0)]
+        [TestCase(-2, 1)]
+
+        [Test]
+        public void Test_adding_two_integers(int a, int b)
+        {
+            Assert.AreEqual(MyMath.Operations.Add(a, b), a + b);
         }
     }
 }
