@@ -10,7 +10,7 @@ namespace Tests
         public void Positives()
         {
             int a = 2;
-            int b = ;
+            int b = 1;
             Assert.AreEqual(MyMath.Operations.Add(a, b), 3);
         }
 
