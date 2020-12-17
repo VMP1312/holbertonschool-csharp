@@ -29,22 +29,19 @@ namespace Text.Tests
 
          public void punctuationTrue()
         {
-           string str = "a man. A plan. A canal: Panama";
-           bool result = Str.IsPalindrome(str);
-           Assert.IsTrue(result);
+           bool isP = Str.IsPalindrome("A man, a plan, a canal: Panama.");
+           Assert.IsTrue(isP);
         }
         [Test]
         public void SpacesTrue()
         {
-           string str = "a man. a plan.\n a canal: Panama.\t";
-           bool result = Str.IsPalindrome(str);
-           Assert.IsTrue(result);
+           bool isP = Str.IsPalindrome("A man, a plan,\n a canal: Panama.\t");
+           Assert.IsTrue(isP);
         }
         [Test]
         public void Megafalse()
         {
-           string str = "a man, a plan,\n a canal: Panamaa.\t";
-           bool result = Str.IsPalindrome(str);
-           Assert.IsFalse(result);
+           bool isP = Str.IsPalindrome("a man, a plan,\n a canal\t");
+           Assert.IsFalse(isP);
     }
 }
