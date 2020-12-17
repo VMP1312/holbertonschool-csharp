@@ -3,9 +3,11 @@
 namespace MyMath
 {
     /// <summary> Class Matrix</summary>
+    
     public class Matrix
     {
         /// <summary> Divides a matrix by num</summary>
+
         public static int[,] Divide(int[,] matrix, int num){
 
             if (matrix == null)
