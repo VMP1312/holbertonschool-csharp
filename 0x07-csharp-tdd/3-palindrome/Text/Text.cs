@@ -11,21 +11,22 @@ namespace Text
         /// <summary> Check if is palindrome</summary>
         public static bool IsPalindrome(string s)
         {
-            if (str == "")
-            {
+            if (s == "")
                 return true;
-            }
-            var newS = new StringBuilder();
-            foreach (char c in str)
+
+            var NewStr = new StringBuilder();
+            foreach (char c in s)
             {
                 if ((!char.IsPunctuation(c)) && c != ' ')
-                    newS.Append(c);
+                    NewStr.Append(c);
             }
-            string str2 = newS.ToString();
-            str2 = str2.ToLower();
-            char[] arr = str2.ToCharArray();
+
+            string s2 = NewStr.ToString();
+            s2 = s2.ToLower();
+            char[] arr = s2.ToCharArray();
             Array.Reverse(arr);
-            for (int cnt = 0; cnt < str2.Length;cnti++)
+
+            for (int cnt = 0; cnt < s2.Length; cnt++)
             {
                 if (s2[cnt] == arr[cnt])
                     continue;
