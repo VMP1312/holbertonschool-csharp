@@ -86,7 +86,7 @@ class Square : Rectangle
         }
     }
 
-    /// <summary> Print </summary>
+  /// <summary> Print </summary>
     public override string ToString()
     {
         return string.Format("[Square] " + size + ' ' + "/ " + size); 
