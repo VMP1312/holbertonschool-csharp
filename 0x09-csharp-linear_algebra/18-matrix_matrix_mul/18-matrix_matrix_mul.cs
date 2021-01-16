@@ -22,9 +22,7 @@ class MatrixMath
             {
                 double n = 0; 
                 for (int z = 0; z < cols1; z++)
-                {
                     n = n + matrix1[x, z] * matrix2[z, y];
-                }
                 newMatrix[x, y] = n;
             }
         }
