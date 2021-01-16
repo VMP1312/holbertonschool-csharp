@@ -14,7 +14,7 @@ class MatrixMath
         int rows1 = matrix1.GetLength(0);
         int cols1 = matrix1.GetLength(1);
         int cols2 = matrix2.GetLength(1);
-        double[,] newMatrix = new double[rows1, cols2];
+        double[,] NMatrix = new double[rows1, cols2];
 
         for (int x = 0; x < rows1; x++)
         {
@@ -23,9 +23,9 @@ class MatrixMath
                 double n = 0; 
                 for (int z = 0; z < cols1; z++)
                     n = n + matrix1[x, z] * matrix2[z, y];
-                newMatrix[x, y] = n;
+                NMatrix[x, y] = n;
             }
         }
-        return newMatrix;
+        return NMatrix;
     }
 }
