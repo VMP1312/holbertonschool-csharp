@@ -105,6 +105,11 @@ class Queue<T>
                 }
                 return conca;
             }
+            else
+            {
+                Console.WriteLine("Concatenate() is for a queue of Strings or Chars only.");
+                return null;
+            }
         }
         else
         {
