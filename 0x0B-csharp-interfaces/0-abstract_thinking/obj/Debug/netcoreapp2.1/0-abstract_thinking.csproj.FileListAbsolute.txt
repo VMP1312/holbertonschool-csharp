@@ -1,0 +1,4 @@
+D:\Holberton\holbertonschool-csharp\0x0B-csharp-interfaces\0-abstract_thinking\obj\Debug\netcoreapp2.1\0-abstract_thinking.csprojAssemblyReference.cache
+D:\Holberton\holbertonschool-csharp\0x0B-csharp-interfaces\0-abstract_thinking\obj\Debug\netcoreapp2.1\0-abstract_thinking.csproj.CoreCompileInputs.cache
+D:\Holberton\holbertonschool-csharp\0x0B-csharp-interfaces\0-abstract_thinking\obj\Debug\netcoreapp2.1\0-abstract_thinking.AssemblyInfoInputs.cache
+D:\Holberton\holbertonschool-csharp\0x0B-csharp-interfaces\0-abstract_thinking\obj\Debug\netcoreapp2.1\0-abstract_thinking.AssemblyInfo.cs
