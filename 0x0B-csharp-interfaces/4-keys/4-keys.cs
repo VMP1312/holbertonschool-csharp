@@ -32,7 +32,7 @@ public interface IBreakable
 }
 
 /// <summary>Interface</summary>
-public interface ICollectible
+public interface ICollectable
 {
     ///<summary>Property</summary>
     bool isCollected
