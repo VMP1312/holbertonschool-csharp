@@ -41,6 +41,7 @@ public interface ICollectible
     void Collect();
 }
 
+///<summary>Tester</summary>
 public class TestObject : Base, IInteractive, IBreakable, ICollectible
 {
     ///<summary>Property</summary>
