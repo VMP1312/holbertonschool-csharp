@@ -1,0 +1,12 @@
+D:\Holberton\holbertonschool-csharp\0x0C-csharp-delegates_events\3-modified_behavior\bin\Debug\netcoreapp2.1\3-modified_behavior.xml
+D:\Holberton\holbertonschool-csharp\0x0C-csharp-delegates_events\3-modified_behavior\bin\Debug\netcoreapp2.1\3-modified_behavior.deps.json
+D:\Holberton\holbertonschool-csharp\0x0C-csharp-delegates_events\3-modified_behavior\bin\Debug\netcoreapp2.1\3-modified_behavior.runtimeconfig.json
+D:\Holberton\holbertonschool-csharp\0x0C-csharp-delegates_events\3-modified_behavior\bin\Debug\netcoreapp2.1\3-modified_behavior.runtimeconfig.dev.json
+D:\Holberton\holbertonschool-csharp\0x0C-csharp-delegates_events\3-modified_behavior\bin\Debug\netcoreapp2.1\3-modified_behavior.dll
+D:\Holberton\holbertonschool-csharp\0x0C-csharp-delegates_events\3-modified_behavior\bin\Debug\netcoreapp2.1\3-modified_behavior.pdb
+D:\Holberton\holbertonschool-csharp\0x0C-csharp-delegates_events\3-modified_behavior\obj\Debug\netcoreapp2.1\3-modified_behavior.csprojAssemblyReference.cache
+D:\Holberton\holbertonschool-csharp\0x0C-csharp-delegates_events\3-modified_behavior\obj\Debug\netcoreapp2.1\3-modified_behavior.csproj.CoreCompileInputs.cache
+D:\Holberton\holbertonschool-csharp\0x0C-csharp-delegates_events\3-modified_behavior\obj\Debug\netcoreapp2.1\3-modified_behavior.AssemblyInfoInputs.cache
+D:\Holberton\holbertonschool-csharp\0x0C-csharp-delegates_events\3-modified_behavior\obj\Debug\netcoreapp2.1\3-modified_behavior.AssemblyInfo.cs
+D:\Holberton\holbertonschool-csharp\0x0C-csharp-delegates_events\3-modified_behavior\obj\Debug\netcoreapp2.1\3-modified_behavior.dll
+D:\Holberton\holbertonschool-csharp\0x0C-csharp-delegates_events\3-modified_behavior\obj\Debug\netcoreapp2.1\3-modified_behavior.pdb

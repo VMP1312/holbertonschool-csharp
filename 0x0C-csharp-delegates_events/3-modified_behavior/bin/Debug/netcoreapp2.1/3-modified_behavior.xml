@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>3-modified_behavior</name>
+    </assembly>
+    <members>
+        <member name="T:Modifier">
+            <summary>Enum</summary>
+        </member>
+        <member name="F:Modifier.Weak">
+            <summary>Waek</summary>
+        </member>
+        <member name="F:Modifier.Base">
+            <summary>Base</summary>
+        </member>
+        <member name="F:Modifier.Strong">
+            <summary>Strong</summary>
+        </member>
+        <member name="T:CalculateModifier">
+            <summary>Calculate Modifier</summary>
+        </member>
+        <member name="T:Player">
+            <summary>Player</summary>
+        </member>
+        <member name="F:Player.name">
+            <summary>Class</summary>
+        </member>
+        <member name="M:Player.#ctor(System.String,System.Single)">
+            <summary>Constructor</summary>
+        </member>
+        <member name="M:Player.PrintHealth">
+            <summary>Method</summary>
+        </member>
+        <member name="T:Player.CalculateHealth">
+            <summary>Delegate takes float</summary>
+        </member>
+        <member name="M:Player.TakeDamage(System.Single)">
+            <summary>Method</summary>
+        </member>
+        <member name="M:Player.HealDamage(System.Single)">
+            <summary>Method</summary>
+        </member>
+        <member name="M:Player.ValidateHP(System.Single)">
+            <summary>Method</summary>
+        </member>
+        <member name="M:Player.ApplyModifier(System.Single,Modifier)">
+            <summary>Apply Modifier</summary>
+        </member>
+    </members>
+</doc>
