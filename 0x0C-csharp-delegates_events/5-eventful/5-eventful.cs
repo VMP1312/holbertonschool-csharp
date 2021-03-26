@@ -97,7 +97,7 @@ public class Player
             this.hp = this.maxHp;
         else
             this.hp = newHp;
-        HPCheck(this, new CurrentHPArgs(this.hp));
+       OnCheckStatus(new CurrentHPArgs(this.hp));
     }
 
     ///<summary>Apply Modifier</summary>
@@ -126,5 +126,22 @@ public class Player
 		else
 			this.status = (this.name + " is knocked out!");
 		Console.WriteLine(this.status);
+    }
+
+    ///<summary>HP warning</summary>
+    private void HPValueWarning(object sender, CurrentHPArgs e)
+    {
+        if (e.currentHp == 0)
+            Console.WriteLine("Health has reached zero!");
+        else
+            Console.WriteLine("Health is low!");
+    }
+
+    ///<summary>OnCheck</summary>
+     void OnCheckStatus(CurrentHPArgs e)
+    {
+        if (e.currentHp < (this.maxHp / 4))
+            HPCheck += HPValueWarning;
+        HPCheck(this, e);
     }
 }
